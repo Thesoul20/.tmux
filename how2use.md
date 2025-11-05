@@ -3,3 +3,5 @@ when install the fork repo in https://github.com/gpakosz/.tmux.git . you should 
 And then move this repo to the correct path such as ~ and  ~/.config/tmux .
 
 At least run the command to source the configures as `tmux source ~/.config/tmux/tmux.conf` .
+
+To install the plugins to save the session during shutdown , you should to uncomment the lines within tmux.conf.local of tqm manager and then `tmux source ~/.config/tmux/tmux.conf`
